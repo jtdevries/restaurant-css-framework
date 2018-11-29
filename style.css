@@ -1,0 +1,87 @@
+/*RESET*/
+* {
+  padding: 0;
+  margin: 0;
+
+}
+.container {
+  width: 100vw;
+}
+.Navigation {
+  background-color: #FF735E;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #fff;
+}
+.titleRestaurant {
+  position: absolute;
+  background-color: #FF735E;
+  border: 2px solid #E84A52;
+  z-index: 1;
+}
+.Banner {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 20vh;
+  z-index: 0;
+}
+
+.BannerImage {
+  padding: 0;
+  margin: 0;
+  object-fit: cover;
+  z-index: 0;
+}
+
+.menuTitles, .card, .Navigation {
+  box-shadow: 0px 2px 5px black;
+}
+.badge-pill, .btn-primary {
+  box-shadow: 1px 1px 2px black;
+}
+
+
+.titleRestaurant {
+  box-shadow: 2px 2px 2px black;
+  border-radius: 5px;
+}
+
+.Info {
+  height: 80vh;
+  background-color: #E5E5E5;
+}
+
+
+.imgThumb {
+  object-fit: cover;
+  height: 250px;
+  width: 250px;
+}
+
+.News {
+  height: 30vh;
+}
+
+.Footer {
+  background-color: #FF735E;
+  height: 60vh;
+}
+
+.Openingstijden {
+  margin: 10px;
+}
+
+.Contact {
+  margin: 10px;
+}
